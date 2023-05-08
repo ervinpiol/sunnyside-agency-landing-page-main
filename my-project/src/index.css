@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --Softred: hsl(7, 99%, 70%);
+  --Yellow: hsl(51, 100%, 49%);
+  --Graphicdesigntext: hsl(167, 40%, 24%);
+  --Photographytext: hsl(198, 62%, 26%);
+  --Darkmoderatecyanfooter: hsl(168, 34%, 41%);
+  --Verydarkdesaturatedblue: hsl(212, 27%, 19%);
+  --Verydarkgrayishblue: hsl(213, 9%, 39%);
+  --Darkgrayishblue: hsl(232, 10%, 55%);
+  --Grayishblue: hsl(210, 4%, 67%);
+  --White: hsl(0, 0%, 100%);
+}
+
+.button-border:hover div {
+  @apply bg-opacity-100;
+}
+
+.triangle {
+  border-left: 20px solid transparent;
+  border-bottom: calc(2 * 15px * 0.866) solid white;
+  display: inline-block;
+}
